@@ -11,7 +11,7 @@ const introdata = {
         second: "AI Enthusiast",
         third: "Photographer",
     },
-    description: "Computer Science M.Tech at IIITH (2022-2024) | Proficient in JAVA, C++, Python | Experienced in Spring/Spring Boot | AIR 459 (Gate 2022 )|Passionate about NLP and Computer Vision",
+    description: "Computer Science M.Tech at IIITH (2022-2024) CGPA-8.76 | Proficient in JAVA, C++, Python | Experienced in Software Development | AIR 459 (Gate 2022 )|Passionate about NLP and Computer Vision",
 };
 
 const dataabout = {
@@ -88,66 +88,51 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/kl.jpg"),
+        description: "KeyPhrase-Extraction-from-Scientific-Papers",
+        link: "https://github.com/pandey-prateek/KeyPhrase-Extraction-from-Scientific-Papers",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/ascii.jpg"),
+        description: "ASCII(POSIX SHELL)",
+        link: "https://github.com/pandey-prateek/ASCII-Posix-Shell-",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/nn.jpg"),
+        description: "Convex Neural Network",
+        link: "https://github.com/pandey-prateek/Convex-Neural-Networks",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/fe.jpg"),
+        description: "File Explorer",
+        link: "https://github.com/pandey-prateek/File-Explorer",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/crow.jpg"),
+        description: "Kaoova",
+        link: "https://github.com/pandey-prateek/Koova",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/json.jpg"),
+        description: "JSON Rule Validator",
+        link: "https://github.com/pandey-prateek/JSON-Rule-Validator",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/distr.jpg"),
+        description: "Distributed IOT Platform",
+        link: "https://github.com/pandey-prateek/Distributed-IOT-Platform",
+    },{
+        img: require( "./assets/images/li.jpg"),
+        description: "Natural-Language-Inference-Elmo",
+        link: "https://github.com/pandey-prateek/Natural-Language-Inference-Elmo",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require( "./assets/images/ml.jpg"),
+        description: "Machine Learning Algo",
+        link: "https://github.com/pandey-prateek/Machine-Learning-Algos",
     },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
