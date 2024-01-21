@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1684f45.css",
+    "main.js": "/static/js/main.b05298db.js",
+    "static/media/jenga.webp": "/static/media/jenga.6e4ed7c51a26a616b94a.webp",
+    "static/media/Prateek_Pandey_Resume.pdf": "/static/media/Prateek_Pandey_Resume.6e576b19cc777e6a0d32.pdf",
+    "static/media/bg.jpeg": "/static/media/bg.37f0c41d9e0ec28a973c.jpeg",
+    "static/media/json.jpg": "/static/media/json.9f3768249741c922bb49.jpg",
+    "static/media/distr.jpg": "/static/media/distr.e9d253e765cfaa522916.jpg",
+    "static/media/nn.jpg": "/static/media/nn.aa0f5a8a7de98609dfac.jpg",
+    "static/media/li.jpg": "/static/media/li.8edececa0c7758514e0e.jpg",
+    "static/media/tm.jpg": "/static/media/tm.983b6f3fe66efb3c1e67.jpg",
+    "static/media/kl.jpg": "/static/media/kl.1267aefe33a314fdb261.jpg",
+    "static/media/ml.jpg": "/static/media/ml.908089dcba6b52214fd3.jpg",
+    "static/media/crow.jpg": "/static/media/crow.b7f772e01387de3f6804.jpg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.c1684f45.css",
+    "static/js/main.b05298db.js"
+  ]
+}
