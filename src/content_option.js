@@ -14,9 +14,10 @@ const introdata = {
     description: "Computer Science M.Tech at IIITH (2022-2024) CGPA-8.76 | Proficient in JAVA, C++, Python | Experienced in Software Development | AIR 459 (Gate 2022 )|Passionate about NLP and Computer Vision",
 };
 
+
 const dataabout = {
-    title: "A bit about my self",
-    aboutme: "I am Prateek Pandey, currently pursuing an M.Tech in Computer Science at IIIT Hyderabad with a notable CGPA of 8.76. As a seasoned Software Engineer, I've contributed significantly at Impetus Technologies and Nucleus Software Exports Ltd., specializing in Java, Spring Boot, and Hadoop. My passion for innovation is reflected in projects like keyphrase extraction from scientific publications and implementing Convex Neural Networks. Proficient in various programming languages and frameworks, I take pride in academic achievements such as securing AIR 459 in Gate 2022 and earning a coveted spot in the Dean's Merit List for M.Tech in 2023.",
+    title: "Let me weave an intriguing narrative about myself.",
+    aboutme: "I'm Prateek Pandey, currently enrolled in the M.Tech Computer Science program at IIIT Hyderabad, maintaining an impressive CGPA of 8.76. With 2.3 years of experience as a seasoned Software Engineer, I've contributed significantly at Nucleus Software Exports Ltd and Impetus Technologies. My expertise lies in Java Spring development, complemented by multiple projects in JavaScript and Python.",
 };
 const worktimeline = [{
         jobtitle: "Software Engineer",
@@ -38,6 +39,16 @@ const worktimeline = [{
         where: "V2 Games",
         date: "6/2017-7/2017",
     },
+];
+const acolades = [{
+    name: "GATE-2022",
+    desc: "Secure AIR 459 in GATE 2022",
+
+},
+{
+    name: "Dean's merit List",
+    desc: "Attain a place in the Dean's Merit List.",
+}
 ];
 
 const skills = [{
@@ -69,21 +80,36 @@ const skills = [{
     },
     {
         name: "React",
-        value: 40,
+        value: 55,
     }
 ];
 
 const services = [{
         title: "Web Development",
-        description: "Skilled in Web Development, I've successfully completed projects utilizing Jquery-Spring Boot and React-Node.js stacks. My expertise extends to Backend development with proficiency in Java, Node.js, and Python.",
+        description: "Web-Based Lending Application(Industry Project):\
+        Played a key role in enhancing a web-based lending application by introducing innovative features and creating new versions. Leveraged Java and the Spring framework to ensure improved robustness and efficiency.\n\n\
+        JSON Rule Validator:\
+        Built a JavaScript-based JSON Rule Validator to validate user-defined syntax against specified rules. Implemented React for dynamic user interfaces and utilized Node.js for server-side functionality.\n\n\
+        KAOOVA Crow and Vulture Hunt Game:\
+        Designed and developed an engaging game entirely using d3.js. Demonstrated proficiency in JavaScript and seamless integration of diverse technologies.\n\n\
+        Backend Systems with Flask:\
+        Applied hands-on experience in backend development using Python and Flask. Created multiple efficient and scalable backend systems, including those for a distributed IoT platform, to complement frontend functionalities.",
     },
     {
         title: "System Application development",
-        description: "Proficient in C++, I've leveraged my skills to develop a range of projects, including a custom POSIX shell, terminal file explorer, and a peer-to-peer file-sharing system.",
+        description: "I have experience in system application development, both in academic coursework and personal projects. Some of the applications I've created include:\n\n\
+        POSIX Shell: I implemented a shell based on the POSIX standard, providing users with a command-line interface to interact with the operating system.\n\n\
+        Terminal File Explorer: I developed a file explorer that operates within the terminal/command-line interface, allowing users to navigate and manipulate files and directories using commands.\n\n\
+        Peer-to-Peer File Sharing System with Socket Programming: I created a Peer-to-Peer (P2P) file sharing system using socket programming, enabling users to share files directly without relying on a central server.\n\n\
+        In addition to these projects, I am proficient in working with Linux systems. My skills include system administration, command-line operations, and a strong understanding of the Linux environment, which is essential for software development and deployment in Unix-like systems."
+        
     },
     {
-        title: "ML Development",
-        description: "Developed multiple models using PyTorch to accomplish diverse tasks, including keyphrase extraction, sentiment analysis, next word prediction, convex optimization, and object identification",
+        title: "Machine Learning",
+        description: " I've explored the world of machine learning, getting better at using different statistical tools for specific jobs. I've worked on tasks like grouping similar data, predicting outcomes, sorting things into categories, spotting unusual patterns, and recognizing specific features in images using algorithms like KNN, KMeans, GMM, Linear Regression, and Decision Trees.\
+        \n\nIn the field of data analysis, I've used methods like BUC (Bottom-Up Computation) and FP-growth to understand and pull meaningful insights from data.\
+        \n\nIn deep learning, I've taken on projects that go beyond the usual methods. For example, I created a special kind of neural network, called a convex neural network, to make sure that the model works well not just during training but also when it's put to the test. This helps the model to perform better in real-world situations.\
+        \n\nIn another project, I worked on understanding language better, specifically pulling out key phrases from scientific papers. This involved using techniques like natural language inference and sentiment analysis to get important information from complex scientific texts.,"
     },
 ];
 
@@ -93,7 +119,7 @@ const dataportfolio = [{
         link: "https://github.com/pandey-prateek/KeyPhrase-Extraction-from-Scientific-Papers",
     },
     {
-        img: require( "./assets/images/ascii.jpg"),
+        img: require( "./assets/images/tm.jpg"),
         description: "ASCII(POSIX SHELL)",
         link: "https://github.com/pandey-prateek/ASCII-Posix-Shell-",
     },
@@ -104,12 +130,12 @@ const dataportfolio = [{
     },
     {
         img: require( "./assets/images/fe.jpg"),
-        description: "File Explorer",
+        description: "Termnal File Explorer",
         link: "https://github.com/pandey-prateek/File-Explorer",
     },
     {
         img: require( "./assets/images/crow.jpg"),
-        description: "Kaoova",
+        description: "KAOOA: TRADITIONAL ABSTRACT STRATEGY HUNT GAME",
         link: "https://github.com/pandey-prateek/Koova",
     },
     {
@@ -163,4 +189,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    acolades,
 };

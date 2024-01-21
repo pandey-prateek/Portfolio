@@ -69,6 +69,9 @@
 .service-section .service-category-title {
     padding-bottom: 4px;
 }
+.service_desc{
+    white-space: pre-line;
+}
 
 
 /*! CSS Used keyframes */

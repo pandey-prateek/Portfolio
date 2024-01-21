@@ -108,6 +108,11 @@ section {
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
+    
+}
+
+.ac_btn_new{
+    margin-bottom: 10px;
 }
 
 .ac_btn a {

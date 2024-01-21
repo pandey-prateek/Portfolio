@@ -8,6 +8,7 @@ import {
   worktimeline,
   skills,
   services,
+  acolades,
 } from "../../content_option";
 
 export const About = () => {
@@ -21,7 +22,7 @@ export const About = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">About me</h1>
+            <h1 className="display-4 mb-4">Allow me to paint a captivating picture of who I am.</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -81,7 +82,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Few strides I've taken on this journey so far.</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
@@ -89,6 +90,21 @@ export const About = () => {
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">Accolades.</h3>
+          </Col>
+          <Col lg="7">
+            {acolades.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.name}</h5>
+                  <p className="service_desc">{data.desc}</p>
                 </div>
               );
             })}
